@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- build:css css/main.css -->
+      <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+      <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+      <link rel="stylesheet" href="css/styles.css" />
+      <!--end build-->
+      <title>Nathan's Restaurant</title>
+
+      <link href="https://fonts.googleapis.com/css2?family=Akronim&family=Festive&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  </head>
+
+  <!--html body tag -->
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="header-section">
+        <div class="row">
+          <div class="col-12 col-sm-4">
+            <img src="img/logo.png" alt="company logo">
+          </div>
+          <div class="col col-sm-8 pt-4">
+            <h1>Japanese Sushi</h1>
+            <h2>Fresh and Authentic</h2>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End header -->
+
+  <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+      <div class="container">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#pjNavbar">
+              <span class="navbar-toggler-icon"></span></button> 
+              <div class="collapse navbar-collapse" id="pjNavbar">
+                  <ul class="navbar-nav">
+                      <li class="nav-item active mr-5"><a class="nav-link" href="index.html"><i class="fa fa-lg"></i>Home</a></li>
+                      <li class="nav-item mr-5"><a class="nav-link" href="aboutus.html"><i class="fa fa-lg"></i>About</a></li>
+                      <li class="nav-item mr-5"><a class="nav-link" href="menu.html"><i class="fa fa-lg"></i>Menu</a></li>
+                      <li class="nav-item mr-5"><a class="nav-link" href="#"><i class="fa fa-lg"></i>Contact</a></li>
+                  </ul>
+                  <span class="navbar-text ml-auto">
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com"><i class="fa  fa-lg fa-facebook"></i></a>
+                    <a class="btn btn=social-icno btn-twitter" href="http://twitter.com"><i class="fa  fa-lg fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-youtube" href="http://google.com"><i class="fa fa-lg fa-youtube"></i></a>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com"><i class="fa fa-lg fa-instagram"></i></a>
+                  </span>
+              </div>
+      </div>
+  </nav>
+  
+  <!-- main feedback and contact info -->
+  <div class="row row-content">
+      <!-- Address and location -->
+      <div class="col">
+        <div class="form-group mt-5 text-center">
+            <h2>Our map location</h2>
+        </div>
+        <div class="form form-group" id="mapContent">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.3311950828347!2d-78.5074597846754!3d38.01605767971626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b3866e3ee0de07%3A0xc69ac65780ab36ef!2s309%20Harris%20Rd%2C%20Charlottesville%2C%20VA%2022903!5e0!3m2!1sen!2sus!4v1634722282737!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      </div>
+      <!-- End address and location -->
+
+      <!-- Feedback form -->
+      <div class="col" id="feedbackForm">
+        <form>
+            <div class="form-group mt-5 text-center">
+               <h2>Give us your feedback</h2>
+              </div>
+            <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="fullName" class="form-control" id="fullName" placeholder="Please enter full name here">
+              </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+           
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Example textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+            </div>
+
+            <div class="row form-group">
+                <div class="col-sm-6 col-form-label">
+                    <button data-dismiss="modal" class="btn btn-secondary">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </div>
+            </div>
+          </form>
+      </div>
+      <!-- End feedback form -->
+  </div>
+        
+  <!-- main feedback and contact info -->
+
+  <!-- End main page -->
+        
+  <!-- footer -->
+  <footer class="row row-content text-center pt-4">
+    <div class="col-12 col-sm-4">
+      <h3>Location</h3>
+      <p>Address: 309 Harris Road</p>
+      <p>Charlottesville, VA 22903</p>
+      <a href="https://goo.gl/maps/o3Fykx5W5yZxa2fv5"><i class="fas fa-map-marker"></i></a>
+    </div>
+  <div class="col-12 col-sm-4">
+    <p id="copyright">&copy; Copyright</p>
+    <a role="button" class="btn btn-link" href="tel:+4345556789><i class="fa fa-phone fa-lg"></i> 1-434-555-6789</a><br />
+    <a role="button" class="btn btn-link" href="mailto:nathankeh@samplemail.com"><i class="fa fa-envelope-o"></i> nathankeh@samplemail.com</a>
+  </div>
+  <div class="col-12 col-sm-4">
+    <h3>Hours of Operation</h3>
+    <p>Tuesday -Friday: 10am - 9:00pm</p>
+    <p>Saturday & Saturday : 12pm - 10pm </p>
+    <p>Monday: Closed</p>
+  </div>
+  </footer>
+  <!-- End footer -->
+    
+  <!--build:css css/main.js-->
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <!--end build-->
+  </body>
+  <!-- End body -->
+</html>
