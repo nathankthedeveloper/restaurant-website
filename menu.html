@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- build:css css/main.css -->
+      <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+      <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+      <link rel="stylesheet" href="css/styles.css" />
+      <!--end build-->
+      <title>Nathan's Restaurant</title>
+
+      <link href="https://fonts.googleapis.com/css2?family=Akronim&family=Festive&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  </head>
+
+  <!--html body tag -->
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="header-section">
+        <div class="row">
+          <div class="col-12 col-sm-4">
+            <img src="img/logo.png" alt="company logo">
+          </div>
+          <div class="col col-sm-8 pt-4">
+            <h1>Japanese Sushi</h1>
+            <h2>Fresh and Authentic</h2>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End header -->
+
+  <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+      <div class="container">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#pjNavbar">
+              <span class="navbar-toggler-icon"></span></button> 
+              <div class="collapse navbar-collapse" id="pjNavbar">
+                  <ul class="navbar-nav">
+                      <li class="nav-item active mr-5"><a class="nav-link" href="index.html"><i class="fa fa-lg"></i>Home</a></li>
+                      <li class="nav-item mr-5"><a class="nav-link" href="aboutus.html"><i class="fa fa-lg"></i>About</a></li>
+                      <li class="nav-item mr-5"><a class="nav-link" href="#"><i class="fa fa-lg"></i>Menu</a></li>
+                      <li class="nav-item mr-5"><a class="nav-link" href="contactus.html"><i class="fa fa-lg"></i>Contact</a></li>
+                  </ul>
+                  <span class="navbar-text ml-auto">
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com"><i class="fa  fa-lg fa-facebook"></i></a>
+                    <a class="btn btn=social-icno btn-twitter" href="http://twitter.com"><i class="fa  fa-lg fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-youtube" href="http://google.com"><i class="fa fa-lg fa-youtube"></i></a>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com"><i class="fa fa-lg fa-instagram"></i></a>
+                  </span>
+              </div>
+      </div>
+  </nav>
+  <!-- End navbar -->
+
+  <!-- main page -->
+  <div class="container" id="menuPage">
+
+    <div class="row row-content">
+      <div class="col text-center mt-5">
+        <h2>See Our Menu</h2>
+      </div>
+    </div>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="appertizers-tab" data-toggle="tab" href="#appertizers" role="tab" aria-controls="appertizers" aria-selected="true">Starters</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="drinks-tab" data-toggle="tab" href="#drinks" role="tab" aria-controls="drinks" aria-selected="false">Drinks</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="mainDishes-tab" data-toggle="tab" href="#mainDishes" role="tab" aria-controls="mainDishes" aria-selected="false">Main Dishes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="chefSpecials-tab" data-toggle="tab" href="#chefSpecials" role="tab" aria-controls="chefSpecials" aria-selected="false">Chef Specials</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active text-center" id="appertizers" role="tabpanel" aria-labelledby="appertizers-tab">
+        <h3 class="mt-5">Sushi</h3>
+        <hr>
+        
+        <h5 class="mt-3">Seared Scallops Special $9/2pc</h5>
+        <p>Topped w/spicy mayo and flying fish roe.</p>
+        
+        <h5>Seared Yellowtail Sushi Special $9/2pc</h5>
+        <p>One w/daikon & Yuzu soy & One w/avocado and Bannu</p>
+        
+        <h5>California Roll w/Snow Crab Meat $8</h5>
+        <p>Snow crab and avocado</p>
+        
+        <h5>Seared Salmon Sushi Special $8/2pc</h5>
+        <p>One topped w/basil aioli & One w/maple soy glaze</p>
+        
+        
+        <h3 class="mb-3 mt-5">Veggie Lovers</h3>
+        <hr>
+        <h5 class="mt-3">Eggplant with Green Curry Sauce $12(V)</h5>
+        <p>Fried eggplant w/sweet potato, red pepper and edamame,</p>
+        <p>onion, tomato, basil, green curry paste, and coconut milk.</p>
+        
+        <h5>Spicy Tofu $8(V)</h5>
+        <p>Fried tofu w/Spicy Gochujang sauce</p>
+        
+        <h5>Goma-Ae $7(V)</h5>
+        <p>Steamed spinach marinated with roasted creamy sesame sauce.</p>
+        
+        <h5>tempura Cauliflower $8(V)</h5>
+        <p>Tempura cauliflower w/peppers, brown rice vinegar,</p>
+        <p>and a sweet and sour spicy sauce.</p>
+
+        <h5>Monkey Rolls $8(GF)</h5>
+        <p>Half-size big roll w/inside avocado, cream cheese,</p>
+        <p>mango, black beans salsa, and outside a fried plantain</p>
+        <br>
+        <br>
+        <p><Small><strong>*** V</strong>= Vegan</Small></p>
+        <P><small><strong>*** GF </strong>= (Gluten Free)</small></P>
+
+      </div>
+      <div class="tab-pane fade" id="drinks" role="tabpanel" aria-labelledby="drinks-tab">
+        <!-- trying to do two column -->
+        <div class="row row-content">
+          <div class="col text-center">
+            <h3>Sake</h3>
+            <hr>
+          </div>
+        </div>
+        <div class="row row-content">
+          <div class="col-sm-6 text-center">
+            <h5>Unfiltered</h5>
+            <p>Sho Chiko bai 13</p>
+            <p>Joto Junmai Nigori(300ml) 18</p>
+            <p>Snow Maiden 18</p>
+           
+            <h5>Sparkling</h5>
+            <p>Lachamte(280ml) 13</p>
+            <p>Mio (300ml) 13</p>
+            <h5>House</h5>
+            <p>Small 8</p>
+            <p>Large 12</p>
+          </div>
+          <div class="col-sm-6 text-center">
+            <h5>Filtered</h5>
+            <p>Hawk in the Heavens(150/300ml 8.50/17</p>
+            <p>Bushido "Way of the Warrior" (180ml) 9</p>
+            <p>Joto Junmai Ginjo (150/300/720 ml) 10/18/38</p>
+            <h5>Specials</h5>
+            <p>Yuzu-joto citrys flavor (150/300ml) 10/26</p>
+            <p>Sake Tasting - Yuzu, Ginjo, Nigori 11</p>
+            <p>Yuzu or Lychee Martini 10</p>
+            <p>Sumari Rock - sake w/lime syrup 9</p>
+          </div>
+        </div>
+        <div class="row row-content">
+          <div class="col text-center">
+            <h3>Wine</h3>
+            <hr>
+          </div>
+        </div>
+        <div class="row row-content">
+          <div class="col-sm-6 text-center">
+            <h5>House</h5>
+            <p>White, Red, or Rose 7/25</p>
+            <h5>Sparkling</h5>
+            <p>Prosecco Extra Dry  9/34</p>
+            <p>Santa Julia Brute Sparkling Rose 9/34</p>
+            <h5>** Additional Wines by the Bottle**</h5>
+          </div>
+          <div class="col-sm-6 text-center">
+            <h5>White</h5>
+            <p>Vidal Blanc(Early Mt./Madison, Va) 9/34</p>
+            <h5>Red</h5>
+            <p>Curator (South Africa Blend) 9/34</p>
+            <p>Julia (Malbec) 9/34</p> 
+            <h5>Rose</h5>
+            <p>J.Mourat 9/18/34</p>
+          </div>
+        </div>
+        <div class="row row-content">
+          <div class="col text-center">
+            <h3>Beer</h3>
+            <hr>
+          </div>
+        </div>
+        <div class="row row-content">
+          <div class="col-sm-6 text-center">
+            <h5>Local 6</h5>
+            <p>Vienna Larger (Devil's Backbone)</p>
+            <p>Schwartz Bier (Devil's Backbone)</p>
+            <p>40-Mile IPA (3 Notch'd)</p>
+            <p>Ghost of the James APA (3 Notch'd)</p>
+            <p>Beale's Gold</p>
+            <p>Bold Rock IPA</p>
+            <p>Basic City 6 IPA</p>
+           <p>Starr Hill The Love Wheat Beer</p>
+           <h5>Domestic</h5>
+           <p>Dogfish Head 60-min IPA 6.5</p>
+           <p>Lagunitas Lil Sumpin' 6.5</p>
+           <p>Sierra BNevada Haza Little Thing 6</p>
+          </div>
+          <div class="col-sm-6 text-center">
+            <h5>Japanese Beer</h5>
+            <p>Kirin Ichiban 6</p>
+            <p>Asahi 6</p>
+            <p>Sapporo 6</p>
+            <p>Sapporo (22oz Can) 10</p>
+            <h5>Import</h5>
+            <p>Ephemere 6.5</p>
+            <h5>Hard Seltzer</h5>
+            <p>White Claw Mango 6</p>
+            <p>Truly Wild Berry 6</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="mainDishes" role="tabpanel" aria-labelledby="mainDishes-tab">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium aspernatur accusamus distinctio placeat aut hic inventore maxime explicabo! Consequuntur repudiandae consectetur quae ipsam quos nisi soluta eum quo quibusdam natus.</p>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui vel mollitia blanditiis aut. Itaque alias pariatur incidunt ab at dolore, ratione sed fuga cum, debitis tempore, laudantium atque ipsam error!</p>
+      </div>
+      <div class="tab-pane fade" id="chefSpecials" role="tabpanel" aria-labelledby="chefSpecials-tab">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium aspernatur accusamus distinctio placeat aut hic inventore maxime explicabo! Consequuntur repudiandae consectetur quae ipsam quos nisi soluta eum quo quibusdam natus.</p>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui vel mollitia blanditiis aut. Itaque alias pariatur incidunt ab at dolore, ratione sed fuga cum, debitis tempore, laudantium atque ipsam error!</p>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- End main page -->
+        
+  <!-- footer -->
+  <footer class="row row-content text-center pt-4">
+    <div class="col-12 col-sm-4">
+      <h3>Location</h3>
+      <p>Address: 309 Harris Road</p>
+      <p>Charlottesville, VA 22903</p>
+      <a href="https://goo.gl/maps/o3Fykx5W5yZxa2fv5"><i class="fas fa-map-marker"></i></a>
+    </div>
+  <div class="col-12 col-sm-4">
+    <p id="copyright">&copy; Copyright</p>
+    <a role="button" class="btn btn-link" href="tel:+4345556789><i class="fa fa-phone fa-lg"></i> 1-434-555-6789</a><br />
+    <a role="button" class="btn btn-link" href="mailto:nathankeh@samplemail.com"><i class="fa fa-envelope-o"></i> nathankeh@samplemail.com</a>
+  </div>
+  <div class="col-12 col-sm-4">
+    <h3>Hours of Operation</h3>
+    <p>Tuesday -Friday: 10am - 9:00pm</p>
+    <p>Saturday & Saturday : 12pm - 10pm </p>
+    <p>Monday: Closed</p>
+  </div>
+  </footer>
+  <!-- End footer -->
+   <!--build:css css/main.js-->
+   <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+   <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+   <script src="js/scripts.js"></script>
+   <!--end build-->
+  </body>
+  <!-- End body -->
+</html>
