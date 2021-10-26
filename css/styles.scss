@@ -1,0 +1,119 @@
+$color-primary: silver;
+$color-secondary: black;
+$color-bright: white;
+$color-leafy: green;
+$color-autumn: yellow;
+$color-hero: pink;
+$color-ash: gray;
+$color-dew: honeydew;
+$color-cloudy: #808080;
+
+
+*{
+    box-sizing:border-box;
+}
+
+header {
+    background-color: $color-primary;
+    color: $color-secondary;
+}
+
+header {
+    h2 {
+        font-family: 'Festive', cursive;
+        color:$color-leafy;
+        font-size: 3rem;
+    }
+}
+
+ header {
+     h1 {
+        font-family: 'Akronim', cursive;
+        font-size: 5.5rem;
+    }
+}
+
+.navbar {
+    background-color: $color-cloudy;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.7rem;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+
+footer{
+   padding-bottom: 20px;
+   background-color: $color-dew;
+   font-size: 1rem;
+}
+
+#reserveModal{
+    background-image: url("/img/background2.jpg");
+}
+
+
+.buttonControl{
+    display:flex;
+    justify-content: center;
+    margin-top:400px;
+}
+
+#reserveButton{
+    margin-right: 80px;
+}
+
+#orderOnlinebtn{
+    margin-left: 80px;
+}
+
+#orderOnlinebtn, #reserveButton {
+    padding: 20px;
+    border-radius: 65%;
+    box-shadow: 10px 15px 18px;
+    position: relative;
+    background-image: linear-gradient(to right,$color-leafy,$color-autumn,$color-hero);
+    font-size: 1.5rem;
+    font-family: 'EB Garamond', sans-serif;
+    color: $color-ash ;
+    -webkit-border-radius: 65%;
+    -moz-border-radius: 65%;
+    -ms-border-radius: 65%;
+    -o-border-radius: 65%;
+}
+
+#feedbackForm{
+    margin: 20px 40px;
+}
+
+#mapContent {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#aboutUsContent img{
+    box-shadow: 5px 18px 15px;
+}
+
+#menuPage {
+    background-image: url('/img/texture1.jpg');
+    width:100%;
+    box-sizing: border-box;
+    box-shadow: 8px 12px 14px;
+    color: $color-bright;
+}
+#menuPage p {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+
+#menuPage h5 {
+    margin-top: 3em;
+}
+
+#menuPage{
+    padding-bottom: 5em;
+    margin-bottom: 2em;
+}
