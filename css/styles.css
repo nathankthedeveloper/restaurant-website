@@ -17,7 +17,8 @@ header h1 {
 .navbar {
   background-color: #808080;
   font-family: 'EB Garamond', serif;
-  font-size: 1.7rem; }
+  font-size: 1.7rem; 
+}
 
 a, a:hover {
   text-decoration: none; }
@@ -25,7 +26,9 @@ a, a:hover {
 footer {
   padding-bottom: 20px;
   background-color: honeydew;
-  font-size: 1rem; }
+  font-size: 1rem;
+}
+
 
 #reserveModal {
   background-image: url("/img/background2.jpg"); }
@@ -65,12 +68,16 @@ footer {
 #aboutUsContent img {
   box-shadow: 5px 18px 15px; }
 
+#menu{
+  background-image: url("/img/background2.jpg");
+}
 #menuPage {
-  background-image: url("/img/texture1.jpg");
+  background-color:slateblue;
   width: 100%;
   box-sizing: border-box;
-  box-shadow: 8px 12px 14px;
-  color: white; }
+  box-shadow: 8px 12px 14px black;
+  color: white; 
+}
 
 #menuPage p {
   font-size: 1.3rem;
